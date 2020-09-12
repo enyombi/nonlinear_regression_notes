@@ -1,0 +1,22 @@
+#ignore all data files
+*.csv
+*.txt
+*.log
+*.eps
+*.pdf
+*.png
+*.svg
+
+#ignore all files with ~
+*~
+.*~
+
+#ignore directory indexing made on MAC OS
+.DS_Store
+
+#ignore python cache. Doesn't work :( 
+__pycache__/*
+
+
+#ignore python cache
+*.pyc
